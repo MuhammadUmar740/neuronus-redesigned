@@ -18,7 +18,7 @@ export default function Home() {
             height={1000}
             className="absolute lg:bottom-0 right-0 w-1/2 sm:w-1/3 mix-blend-screen object-cover"
           />
-          <div className="container p-4 mx-auto relative pt-20 sm:pt-28 lg:pt-36 xl:pt-44 2xl:pt-52 pb-14 md:pb-20">
+          <div className="container p-5 mx-auto relative pt-20 sm:pt-28 lg:pt-36 xl:pt-44 2xl:pt-52 pb-14 md:pb-20">
             <div className="w-1/2 rounded-full h-80 xl:h-100 2xl:h-120 bg-[#4C67FF] blur-[80px] md:blur-[100px] absolute -top-[10%] left-1/2 -translate-x-1/2 -translate-y-1/2" />
             <Image
               src={dots}
@@ -43,7 +43,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="container p-4 mx-auto grid grid-cols-2 lg:grid-cols-4 gap-1.5 xs:gap-x-3 sm:gap-x-5 xl:gap-x-8 gap-y-12 xl:gap-y-14 pb-12 xs:pb-20 lg:pb-50">
+        <div className="container p-5 mx-auto grid grid-cols-2 lg:grid-cols-4 gap-1.5 xs:gap-x-3 sm:gap-x-5 xl:gap-x-8 gap-y-12 xl:gap-y-14 pb-12 xs:pb-20 lg:pb-50">
           {productValuationData.map((product, index) => (
             <ProductValuationCard
               key={`${product.name}-valuation-${index}`}

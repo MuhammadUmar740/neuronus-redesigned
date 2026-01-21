@@ -15,7 +15,7 @@ const NeuroCoinWorth = () => {
           className="w-full h-auto mix-blend-screen object-cover"
         />
       </div>
-      <div className="rounded-[22px] bg-[#00113E] flex gap-2 xs:gap-3 sm:gap-5 ps-3 pt-5 pb-10 pe-3 xxs:pe-5 xs:pe-10 sm:pe-15 md:pe-30 relative w-[90%] lg:w-2/3 xl:w-1/2 2xl:w-[40%] container p-4 mx-auto">
+      <div className="rounded-[22px] bg-[#00113E] flex gap-2 xs:gap-3 sm:gap-5 ps-3 pt-5 pb-10 pe-3 xxs:pe-5 xs:pe-10 sm:pe-15 md:pe-30 relative w-[90%] lg:w-2/3 xl:w-1/2 2xl:w-[40%] container p-5 mx-auto">
         <div className="size-10 xs:size-12 sm:size-14.5 flex items-center justify-center bg-primary border-[0.4px] border-[#223496] rounded-xl backdrop-blur-[0.7px]">
           <NeuroCoin />
         </div>

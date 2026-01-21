@@ -106,8 +106,11 @@ const ProductValuationCard = ({
           {imgMob}
         </div>
       )}
-      <div ref={pRef} className="bg-white w-10 opacity-100">
-        <p className="absolute bg-white/10 rounded-full border-[0.4px] border-white backdrop-blur-[2px] text-[15px] text-white px-2 py-1 font-NeueThin -rotate-90 top-1/2 left-1/2">
+      <div
+        ref={pRef}
+        className="absolute top-1/2 left-1/2 size-3 rounded-full opacity-100 flex justify-center"
+      >
+        <p className="bg-white/10 rounded-full border-[0.4px] border-white backdrop-blur-[2px] text-[15px] text-white px-2 py-1 font-NeueThin -rotate-90 size-fit">
           {dailyRevenue}
         </p>
       </div>

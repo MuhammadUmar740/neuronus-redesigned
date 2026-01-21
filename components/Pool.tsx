@@ -6,7 +6,7 @@ import thunder from "@/public/images/thunder.png";
 const Pool = () => {
   return (
     <div className="overflow-hidden relative">
-      <div className="container p-4 mx-auto relative pt-50">
+      <div className="container p-5 mx-auto relative pt-50">
         <Image
           src={dots}
           alt="dots"
