@@ -2,6 +2,7 @@ import Image from "next/image";
 import pool from "@/public/images/pool.png";
 import dots from "@/public/images/dots-pool.png";
 import thunder from "@/public/images/thunder.png";
+import { zBubbles, zThunder, zToolTip } from "@/data/constants/zIndexes";
 
 const Pool = () => {
   return (
@@ -32,7 +33,7 @@ const Pool = () => {
           >
             <source src="/videos/pool-waves.mp4" type="video/mp4" />
           </video>
-          <div className="absolute bottom-1/5 xs:bottom-[23%] left-1/2 -translate-x-1/2 text-center w-fit text-white text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl">
+          <div className="absolute bottom-1/5 xs:bottom-[21%] sm:bottom-[23%] left-1/2 -translate-x-1/2 text-center w-fit text-white text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl">
             <h2 className="font-NeueThin">Neuro Pool</h2>
             <p id="currentValuation" className="font-semibold">
               $30,000
@@ -46,7 +47,7 @@ const Pool = () => {
           </div>
           <div
             id="valuationTooltip"
-            className="absolute bg-[#6674be] backdrop-blur-lg py-2 xs:py-2.5 px-2 xs:ps-4 pe-3 xs:pe-5 sm:pe-10 rounded-r-full rounded-tl-full -right-[5%] top-[10%] opacity-0 text-xs xs:text-sm sm:text-base"
+            className={`absolute bg-[#6674be] backdrop-blur-lg py-2 xs:py-2.5 px-2 xs:ps-4 pe-3 xs:pe-5 sm:pe-10 rounded-r-full rounded-tl-full -right-[5%] top-[10%] opacity-0 text-xs xs:text-sm sm:text-base ${zToolTip}`}
           >
             <p className="font-NeueThin text-white">+10,000 USD</p>
           </div>
@@ -56,14 +57,14 @@ const Pool = () => {
           alt="Thunder on pool"
           width={1500}
           height={1500}
-          className="size-full absolute top-[10%] left-0 object-contain"
+          className={`size-full absolute top-[10%] left-0 object-contain ${zThunder}`}
         />
         <video
           autoPlay
           loop
           muted
           playsInline
-          className="size-[130%] absolute top-0 right-0 mix-blend-lighten scale-270 xs:scale-220 sm:scale-190 md:scale-160 lg:scale-150 xl:scale-110"
+          className={`size-[130%] absolute top-0 right-0 mix-blend-lighten scale-270 xs:scale-220 sm:scale-190 md:scale-160 lg:scale-150 xl:scale-110 ${zBubbles}`}
         >
           <source src="/videos/bubble.mp4" type="video/mp4" />
         </video>

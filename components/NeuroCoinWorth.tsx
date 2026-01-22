@@ -2,11 +2,14 @@ import Image from "next/image";
 import Growth from "@/public/icons/Growth";
 import NeuroCoin from "@/public/icons/NeuroCoin";
 import brain from "@/public/images/header-brain.png";
+import { zWorthCard } from "@/data/constants/zIndexes";
 
 const NeuroCoinWorth = () => {
   return (
-    <div className="translate-y-[-10%] w-full relative pb-10 overflow-hidden">
-      <div className="absolute bottom-[-10%] right-[-8%] w-1/4 bg-primary">
+    <div
+      className={`translate-y-[-10%] w-full relative pb-10 overflow-hidden ${zWorthCard}`}
+    >
+      <div className="absolute bottom-[-10%] right-[-8%] w-1/2 sm:w-[40%] md:w-1/3 xl:w-1/4 bg-primary">
         <Image
           src={brain}
           alt="brain"

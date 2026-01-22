@@ -5,6 +5,7 @@ import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import Polygon from "@/public/images/Polygon";
 import { ProductValuation } from "@/data/productValuation";
 import { useScreenSize } from "@/hooks/useScreenSize";
+import { zValuation, zValutionCard } from "@/data/constants/zIndexes";
 
 gsap.registerPlugin(MotionPathPlugin);
 
@@ -62,8 +63,8 @@ const ProductValuationCard = ({
           autoRotate: true,
         },
         onUpdate: function () {
-          if (this.progress() >= 0.95) {
-            gsap.set(pRef.current, { opacity: 0, ease: "" });
+          if (this.progress() >= 0.9) {
+            gsap.to(pRef.current, { opacity: 0, ease: "none" });
           }
         },
         onComplete: () => {
@@ -108,7 +109,7 @@ const ProductValuationCard = ({
       )}
       <div
         ref={pRef}
-        className="absolute top-1/2 left-1/2 size-3 rounded-full opacity-100 flex justify-center"
+        className={`absolute top-1/2 left-1/2 size-3 rounded-full opacity-100 flex justify-center ${zValuation}`}
       >
         <p className="bg-white/10 rounded-full border-[0.4px] border-white backdrop-blur-[2px] text-[15px] text-white px-2 py-1 font-NeueThin -rotate-90 size-fit">
           {dailyRevenue}
@@ -126,7 +127,9 @@ const ProductValuationCard = ({
       <Polygon
         className={`absolute lg:hidden -bottom-2.5 left-1/2 -translate-x-1/2`}
       />
-      <div className="p-1 xs:p-1.5 sm:p-2.5 xl:p-3.5 rounded-3xl bg-[#3448B9] relative overflow-hidden">
+      <div
+        className={`p-1 xs:p-1.5 sm:p-2.5 xl:p-3.5 rounded-3xl bg-[#3448B9] relative overflow-hidden ${zValutionCard}`}
+      >
         <div
           id="backLight"
           className="absolute w-[40%] h-[220%] left-1/2 top-1/2 bg-[#9AA9FF] blur-[18px] rounded-[25%] will-change-transform -translate-x-1/2 -translate-y-1/2"

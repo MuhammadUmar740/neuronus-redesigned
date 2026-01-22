@@ -6,7 +6,7 @@ const WireMob6 = () => {
       height="397"
       viewBox="0 0 71 397"
       fill="none"
-      className="scale-y-150 origin-top"
+      className="scale-y-125 xs:scale-y-150 origin-top"
     >
       <path
         d="M70.2275 0.5C70.2261 142.96 11.718 157.919 4.35658 279.79C-3.00481 401.66 7.09765 396.766 0.499771 395.494"
