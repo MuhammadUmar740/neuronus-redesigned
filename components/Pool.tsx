@@ -16,7 +16,7 @@ const Pool = () => {
           className="size-full object-cover absolute top-0 left-0"
         />
         <div className="w-full xs:w-[90%] sm:w-[75%] md:w-[70%] lg:w-[60%] xl:w-1/2 2xl:w-[40%] mx-auto relative">
-          <div className="size-4/5 md:size-2/3 absolute bg-[#4C67FF] blur-[100px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+          <div className="size-4/5 md:size-2/3 absolute bg-backlight blur-[100px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
           <Image
             src={pool}
             alt="valuation pool"

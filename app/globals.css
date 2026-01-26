@@ -32,6 +32,7 @@
 
   /* Colors */
   --color-primary: #101a53;
+  --color-backlight: #4c67ff;
 
   /* Breakpoints */
   --breakpoint-xs: 425px;

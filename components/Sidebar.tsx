@@ -28,9 +28,10 @@ const Sidebar = () => {
     >
       <div
         ref={sidebarRef}
-        className="h-full w-[85vw] xs:w-85 bg-primary px-7.25 py-15 flex flex-col gap-8 justify-between overflow-y-auto"
+        className="h-full w-[85vw] xs:w-85 bg-primary px-7.25 py-15 flex flex-col gap-8 justify-between overflow-y-auto relative"
       >
-        <div>
+        <div className="absolute top-0 right-0 rounded-bl-full bg-backlight w-50 h-50 pointer-events-none blur-[79px]" />
+        <div className="relative">
           <button onClick={hideSidebar}>
             <Previous />
           </button>
