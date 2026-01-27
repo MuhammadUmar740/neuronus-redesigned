@@ -33,10 +33,15 @@
   /* Colors */
   --color-primary: #101a53;
   --color-backlight: #4c67ff;
+  --color-slate: #f7f7f7;
 
   /* Breakpoints */
   --breakpoint-xs: 425px;
   --breakpoint-xxs: 368px;
+}
+
+@utility gradient-text {
+  @apply text-transparent bg-clip-text bg-linear-to-r from-[#999999] via-white to-[#999999] font-bold tracking-wide leading-tight sm:leading-none;
 }
 
 @media (max-width: 768px) {
@@ -47,11 +52,12 @@
   }
 }
 
+html,
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "NeueRegular", sans-serif;
-  width: 100vw;
-  overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: clip;
 }

@@ -1,6 +1,6 @@
-import React from "react";
+import { SvgProps } from "@/types/svg";
 
-const GhostTransfer = () => {
+const GhostTransfer = ({ className = "" }: SvgProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -8,7 +8,7 @@ const GhostTransfer = () => {
       height="18"
       viewBox="0 0 19 18"
       fill="none"
-      className="w-4 sm:w-4.75 h-auto"
+      className={className}
     >
       <path
         fillRule="evenodd"

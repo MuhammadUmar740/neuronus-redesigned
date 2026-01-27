@@ -1,5 +1,5 @@
 "use client";
-import React, { createContext, useState, ReactNode } from "react";
+import { createContext, useState, ReactNode, useLayoutEffect } from "react";
 
 export interface SidebarContextType {
   isSidebarVisible: boolean;
@@ -18,6 +18,16 @@ export const SidebarProvider = ({ children }: { children: ReactNode }) => {
   const showSidebar = () => setIsSidebarVisible(true);
   const hideSidebar = () => setIsSidebarVisible(false);
   const toggleSidebar = () => setIsSidebarVisible((prev) => !prev);
+
+  useLayoutEffect(() => {
+    if (isSidebarVisible) {
+      document.body.style.height = "100dvh";
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.height = "auto";
+      document.body.style.overflow = "unset";
+    }
+  }, [isSidebarVisible]);
 
   return (
     <SidebarContext.Provider

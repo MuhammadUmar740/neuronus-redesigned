@@ -24,11 +24,11 @@ const Sidebar = () => {
         !isSidebarVisible
           ? "translate-x-full bg-transparent"
           : "bg-black/21 translate-x-0"
-      } transition-all absolute size-full left-0 top-0 flex justify-end text-white`}
+      } transition-all box-border fixed w-full h-dvh left-0 top-0 text-white overflow-clip z-50`}
     >
       <div
         ref={sidebarRef}
-        className="h-full w-[85vw] xs:w-85 bg-primary px-7.25 py-15 flex flex-col gap-8 justify-between overflow-y-auto relative"
+        className="ms-auto h-full w-[85%] xs:w-85 bg-primary px-7.25 py-15 flex flex-col gap-8 justify-between overflow-y-auto relative"
       >
         <div className="absolute top-0 right-0 rounded-bl-full bg-backlight w-50 h-50 pointer-events-none blur-[79px]" />
         <div className="relative">
