@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import Header from "@/components/Header";
+import CheckValue from "@/components/home/CheckValue";
 import HeaderCard from "@/components/home/HeaderCard";
 import Curtains from "@/public/images/Curtains";
 import dots from "@/public/images/dots-landing-header.png";
@@ -35,6 +36,7 @@ export default function Home() {
           <HeaderCard />
         </div>
       </Header>
+      <CheckValue />
     </>
   );
 }

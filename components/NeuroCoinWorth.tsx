@@ -38,7 +38,7 @@ const NeuroCoinWorth = () => {
               className="text-sm xs:text-base flex gap-3 xs:gap-5 items-center mb-8 xs:mb-10 opacity-0"
             >
               <div className="bg-[#22C55E] rounded-sm px-4 xs:px-6 py-1.5 flex gap-1.5 items-center">
-                <Growth />
+                <Growth className="text-[#00113E]" />
                 <p className="text-[#00113E]">+25%</p>
               </div>
               <p>vs last period</p>
