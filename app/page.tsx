@@ -2,6 +2,7 @@ import Button from "@/components/Button";
 import Header from "@/components/Header";
 import CheckValue from "@/components/home/CheckValue";
 import HeaderCard from "@/components/home/HeaderCard";
+import AccessNetwork from "@/components/homePage/AccessNetwork";
 import Curtains from "@/public/images/Curtains";
 import dots from "@/public/images/dots-landing-header.png";
 import Image from "next/image";
@@ -37,6 +38,7 @@ export default function Home() {
         </div>
       </Header>
       <CheckValue />
+      <AccessNetwork />
     </>
   );
 }
