@@ -60,4 +60,5 @@ body {
   font-family: "NeueRegular", sans-serif;
   max-width: 100%;
   overflow-x: clip;
+  background-color: #f7f7f7;
 }
