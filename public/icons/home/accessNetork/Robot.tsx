@@ -1,6 +1,6 @@
-import React from "react";
+import { SvgProps } from "@/types/svg";
 
-const Robot = () => {
+const Robot = ({ className = "" }: SvgProps) => {
   return (
     <svg
       width="20"
@@ -9,6 +9,7 @@ const Robot = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      className={className}
     >
       <rect width="19.1068" height="30.1077" fill="url(#pattern0_594_19693)" />
       <defs>

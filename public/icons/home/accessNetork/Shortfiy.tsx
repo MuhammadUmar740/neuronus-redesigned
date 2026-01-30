@@ -1,6 +1,4 @@
-import React from "react";
-
-const Shortfiy = () => {
+const Shortfiy = ({ className = "" }) => {
   return (
     <svg
       width="30"
@@ -8,6 +6,7 @@ const Shortfiy = () => {
       viewBox="0 0 30 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
     >
       <circle cx="14.7774" cy="14.7774" r="14.7774" fill="black" />
       <path
