@@ -33,7 +33,7 @@ const Sidebar = () => {
         <div className="absolute top-0 right-0 rounded-bl-full bg-backlight w-50 h-50 pointer-events-none blur-[79px]" />
         <div className="relative">
           <button onClick={hideSidebar}>
-            <Previous />
+            <Previous className="text-white" />
           </button>
           <div className="flex items-center justify-between py-8">
             <Logo light />

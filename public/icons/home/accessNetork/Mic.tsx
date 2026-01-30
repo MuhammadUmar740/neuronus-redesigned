@@ -1,6 +1,4 @@
-import React from "react";
-
-const Mic = () => {
+const Mic = ({ className = "" }) => {
   return (
     <svg
       width="21"
@@ -8,6 +6,7 @@ const Mic = () => {
       viewBox="0 0 21 22"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
     >
       <path
         d="M10.1398 14.1885C12.0073 14.1885 13.5199 12.5499 13.5199 10.5267V5.49183C13.5199 3.46871 12.0073 1.83008 10.1398 1.83008C8.27235 1.83008 6.75977 3.46871 6.75977 5.49183V10.5267C6.75977 12.5499 8.27235 14.1885 10.1398 14.1885Z"
