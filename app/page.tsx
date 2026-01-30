@@ -2,6 +2,7 @@ import CheckValue from "@/components/home/CheckValue";
 import DataSecurity from "@/components/home/data-security";
 import HeaderHome from "@/components/home/HeaderHome";
 import NeuronusProtects from "@/components/home/neuronus-protects";
+import AccessNetwork from "@/components/homePage/AccessNetwork";
 
 export default function Home() {
   return (
@@ -10,6 +11,6 @@ export default function Home() {
       <CheckValue />
       <DataSecurity />
       <NeuronusProtects />
+      <AccessNetwork />
     </>
   );
-}
