@@ -41,7 +41,7 @@ export type ProductValuation = {
 
 export const productValuationData: ProductValuation[] = [
   {
-    icon: <NeuroMail />,
+    icon: <NeuroMail className="w-4.75 sm:w-5.75 h-auto" />,
     name: "Neuro Mail",
     dailyRevenue: "$1,000",
     shareOfPool: "10%",
@@ -54,7 +54,7 @@ export const productValuationData: ProductValuation[] = [
     pathId: "#wire1",
   },
   {
-    icon: <Resonance />,
+    icon: <Resonance className="w-4.5 sm:w-5.5 h-auto" />,
     name: "Resonance",
     dailyRevenue: "$1,000",
     shareOfPool: "10%",
@@ -67,7 +67,7 @@ export const productValuationData: ProductValuation[] = [
     pathId: "#wire2",
   },
   {
-    icon: <NeuroCoin />,
+    icon: <NeuroCoin className="size-5.5 sm:size-7" />,
     name: "Neuro Coin",
     dailyRevenue: "$2,000",
     shareOfPool: "20%",
@@ -80,7 +80,7 @@ export const productValuationData: ProductValuation[] = [
     pathId: "#wire3",
   },
   {
-    icon: <GhostTransfer />,
+    icon: <GhostTransfer className="w-4 sm:w-4.75 h-auto" />,
     name: "Ghost Transfer",
     dailyRevenue: "$1,000",
     shareOfPool: "10%",
@@ -93,7 +93,7 @@ export const productValuationData: ProductValuation[] = [
     pathId: "#wire4",
   },
   {
-    icon: <NeuroScreens />,
+    icon: <NeuroScreens className="w-3.75 sm:w-4.75 h-auto" />,
     name: "Neuro Screens",
     dailyRevenue: "$1,000",
     shareOfPool: "10%",
@@ -106,7 +106,7 @@ export const productValuationData: ProductValuation[] = [
     pathId: "#wire5",
   },
   {
-    icon: <NeuroRSA />,
+    icon: <NeuroRSA className="w-3.75 sm:w-4.5 h-auto" />,
     name: "Neuro RSA",
     dailyRevenue: "$1,000",
     shareOfPool: "10%",
@@ -134,7 +134,7 @@ export const productValuationData: ProductValuation[] = [
     pathId: "#wire7",
   },
   {
-    icon: <NeuroDrive />,
+    icon: <NeuroDrive className="w-4 sm:w-5 h-auto" />,
     name: "Neuro Drive",
     dailyRevenue: "$1,000",
     shareOfPool: "10%",
