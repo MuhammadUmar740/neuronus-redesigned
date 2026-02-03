@@ -3,7 +3,7 @@ import DataSecurity from "@/components/home/data-security";
 import HeaderHome from "@/components/home/HeaderHome";
 import NeuronusProtects from "@/components/home/neuronus-protects";
 import AccessNetwork from "@/components/home/access-network/AccessNetwork";
-import Communication from "@/components/communication/Communication";
+import Communication from "@/components/home/communication/Communication";
 
 export default function Home() {
   return (

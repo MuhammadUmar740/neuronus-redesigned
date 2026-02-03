@@ -1,17 +1,17 @@
 "use client";
-import Heading from "../Heading";
-import Description from "../Description";
+import Heading from "../../Heading";
+import Description from "../../Description";
 import { CommunicationProducts } from "@/data/productCatalog";
-import ProductCatalog from "../ProductCatalog";
+import ProductCatalog from "../../ProductCatalog";
 import thunder from "@/public/images/home/data-security-thunder.png";
 import Image from "next/image";
 import MessageCard1 from "./messaging/MessageCard1";
 import MessageCard2 from "./messaging/MessageCard2";
 import MessageCard3 from "./messaging/MessageCard3";
-import AppSwiper from "../Swipper";
+import AppSwiper from "../../Swipper";
 import { SwiperSlide } from "swiper/react";
 import MailCard from "./MailCard";
-import KeyEncryption from "./KeyEncryption";
+import EncryptionCard from "./EncryptionCard";
 
 const Communication = () => {
   return (
@@ -48,7 +48,7 @@ const Communication = () => {
                 <MailCard />
               </SwiperSlide>
               <SwiperSlide>
-                <KeyEncryption />
+                <EncryptionCard />
               </SwiperSlide>
             </AppSwiper>
           </div>

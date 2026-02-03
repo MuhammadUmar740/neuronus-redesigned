@@ -1,5 +1,5 @@
 import React from "react";
-import ThunderCard from "../ThunderCardBg";
+import ThunderCard from "../../ThunderCardBg";
 import Top from "@/public/images/home/Top-Card.png";
 import Image from "next/image";
 import Sheild from "@/public/icons/communication/Sheild";
@@ -7,9 +7,9 @@ import Bin from "@/public/icons/communication/Bin";
 import Info from "@/public/icons/communication/Info";
 import Option from "@/public/icons/communication/Option";
 import OpenEye from "@/public/icons/communication/OpenEye";
-import SliderCardPill from "../SliderCardPill";
+import SliderCardPill from "../../SliderCardPill";
 import DotedPath from "@/public/icons/communication/DotedPath";
-const KeyEncryption = () => {
+const EncryptionCard = () => {
   return (
     <ThunderCard>
       <SliderCardPill
@@ -73,4 +73,4 @@ const KeyEncryption = () => {
   );
 };
 
-export default KeyEncryption;
+export default EncryptionCard;

@@ -3,7 +3,7 @@ import SliderCardPill from "@/components/SliderCardPill";
 import hand from "@/public/images/home/communication-hand.png";
 import Power from "@/public/icons/home/accessNetork/Power";
 import bg from "@/public/images/home/header-card-bg-mob.png";
-import ThunderCard from "../ThunderCardBg";
+import ThunderCard from "../../ThunderCardBg";
 import Guard from "@/public/icons/communication/Guard";
 
 const MailCard = () => {
