@@ -54,7 +54,7 @@ export const productValuationData: ProductValuation[] = [
     pathId: "#wire1",
   },
   {
-    icon: <Resonance className="w-4.5 sm:w-5.5 h-auto" />,
+    icon: <Resonance className="w-4.5 sm:w-5.5 h-auto text-white" />,
     name: "Resonance",
     dailyRevenue: "$1,000",
     shareOfPool: "10%",

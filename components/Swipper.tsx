@@ -13,7 +13,7 @@ const AppSwiper = ({ children, ...props }: AppSwiperProps) => {
     <Swiper
       modules={[Pagination, Navigation, Autoplay]}
       className="w-full!"
-      // autoplay={{ delay: 2000, pauseOnMouseEnter: true }}
+      autoplay={{ delay: 3000, pauseOnMouseEnter: true }}
       slidesPerView={1}
       spaceBetween={10}
       breakpoints={{

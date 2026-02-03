@@ -3,7 +3,6 @@ import Neuronus from "@/public/icons/registration/Neuronus";
 import UnionUp from "@/public/icons/registration/UnionUp";
 import UnionDown from "@/public/icons/registration/UnionDown";
 import NeuroMail from "@/public/icons/registration/NeuroMail";
-import Resonance from "@/public/icons/registration/Resonance";
 import NeuroDrive from "@/public/icons/registration/NeuroDrive";
 import QuantumGraphy from "@/public/icons/registration/QuantumGraphy";
 import Ghost from "@/public/icons/registration/Ghost";
@@ -11,9 +10,10 @@ import NeuroCircle from "@/public/icons/registration/NeuroCircle";
 import NeuroScreens from "@/public/icons/registration/NeuroScreens";
 import NFile from "@/public/icons/registration/NFile";
 import XFile from "@/public/icons/registration/XFile";
-import NeuroRsa from "@/public/icons/registration/NeuroRsa";
 import Exclude from "@/public/icons/registration/Exclude";
 import NP from "@/public/icons/registration/NP";
+import Resonance from "@/public/icons/Resonance";
+import NeuroRSA from "@/public/icons/NeuroRSA";
 
 interface Props {
   isOpen: boolean;
@@ -26,7 +26,7 @@ const Icons = [
   { icon: UnionDown },
   { icon: NeuroMail },
   { icon: Resonance },
-  { icon: NeuroRsa },
+  { icon: NeuroRSA },
   { icon: NeuroDrive },
   { icon: QuantumGraphy },
   { icon: Ghost },
@@ -53,7 +53,7 @@ export const SelectRegistration = ({ isOpen, onClose }: Props) => {
               <div
                 key={index}
                 className={`flex items-center justify-center bg-white border-[0.35px] border-[#B8B8B8A8] rounded-[10.72px] p-2 w-11 h-11 
-                  transition-transform ${
+                  transition-transform text-backlight ${
                     index !== 0
                       ? "-ml-3 sm:-ml-4 md:-ml-2 -mr-2 lg:-mr-0 lg:-ml-2"
                       : ""

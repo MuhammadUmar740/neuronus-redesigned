@@ -24,7 +24,7 @@ export const Modal = ({ isOpen, onClose, children }: BaseModalProps) => {
     <div className="fixed inset-0 z-50 flex items-center justify-center px-4">
       <div className="absolute inset-0 bg-black/50" onClick={onClose} />
 
-      <div className="relative w-full sm:max-w-[420px] md:max-w-[520px] lg:max-w-[648px] max-h-[90vh] overflow-y-auto rounded-2xl bg-[#F1F5FA] p-4">
+      <div className="relative w-full sm:max-w-105 md:max-w-130 lg:max-w-162 max-h-[90vh] overflow-y-auto rounded-2xl bg-[#F1F5FA] p-4">
         <button
           onClick={onClose}
           className="absolute right-4 top-4 text-gray-500 hover:text-gray-700"
