@@ -11,14 +11,14 @@ const NextGenEncryption = () => {
   return (
     <section className="pt-20">
       <Container className="text-center">
-        <Heading className="mb-5">
+        <Heading className="mb-3 md:mb-5">
           Next-Gen Encryption for <br /> Real-World Privacy
         </Heading>
         <Description
           text="Protect your identity with AI-secure tools built for absolute safety, anonymity, and control."
-          className="mb-12 lg:mb-16"
+          className="mb-10 xs:mb-12 lg:mb-16"
         />
-        <Button text="Get Started →" className="mx-auto w-54 lg:w-64" />
+        <Button text="Get Started →" className="mx-auto w-48 md:w-54 lg:w-64" />
       </Container>
       <div className="relative my-20 lg:my-0">
         <BasicRulesEllipse className="relative w-full h-auto object-cover hidden lg:block" />
