@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Modal } from "../Modal";
 import Warning from "@/public/icons/Warning";
+import Button from "../Button";
 
 interface Props {
   isOpen: boolean;
@@ -26,24 +27,23 @@ export const CreateAccountPopup = ({ isOpen, onClose }: Props) => {
             <Warning />
           </div>
         </div>
-
         <h3 className="text-[23px] lg:text-4xl font-semibold">
           Important Note
         </h3>
-        <p className="mt-2 text-xl sm:py-0 md:py-3 lg:py-6 sm:px-0 md:px-6 lg:px-8  text-[rgba(0,0,0,0.71)]">
+        <p className="mt-2 text-[16px] md:text-xl sm:py-2 md:py-3 lg:py-3 px-6 lg:px-8  text-[rgba(0,0,0,0.71)]">
           On the next page you will see a series of 16 words. This is your
           unique and private seed and it is the ONLY way to recover your wallet
           in case of loss or manifestation. It is your responsibility to write
           it down and store it in a safe place outside of the password manager
           app
         </p>
-
-        <button className="mt-6 px-8 rounded-full bg-[radial-gradient(43.45%_44.45%_at_56.56%_20.66%,_#2E3E99_0%,_#4C67FF_100%)] bg-[#4C67FF] py-3 text-white">
-          I understand, show me my seed
-        </button>
+        <Button
+          text="I understand, show me my seed"
+          className=" text-[12px] md:text-[19px]! px-5 md:px-16 py-2 md:py-6! mt-10"
+        />
         <p className="mt-4 mb-2 text-[14px] lg:text-xl">
           Already have account?{" "}
-          <Link href="/login" className="cursor-pointer text-[#36F] underline">
+          <Link href="/login" className="cursor-pointer text-[#36F]">
             Login here
           </Link>{" "}
         </p>

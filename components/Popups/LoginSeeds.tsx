@@ -1,8 +1,7 @@
 import Seed from "@/public/icons/seedRegistration/Seed";
 import { Modal } from "../Modal";
 import Link from "next/link";
-import Save from "@/public/icons/seedRegistration/Save";
-import Copy from "@/public/icons/seedRegistration/Copy";
+import Button from "../Button";
 
 interface Props {
   isOpen: boolean;
@@ -33,48 +32,43 @@ const Services = [{ name: "Help" }, { name: "Privacy" }, { name: "Terms" }];
 export const LoginSeeds = ({ isOpen, onClose }: Props) => {
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
-      <div className="overflow-y-auto bg-[#F1F5FA] ">
-        <div className="flex items-center justify-center sm:mt-8 md:mt-10 lg:mt-10 mb-4">
-          <div
-            className={`flex items-center justify-center p-7 rounded-[129px] bg-white`}
-          >
-            <Seed />
+      <div className="overflow-y-auto">
+        <div className="flex items-center justify-center mt-4 sm:mt-8 md:mt-10 lg:mt-10 mb-6">
+          <div className="flex items-center p-4 md:p-8 rounded-[129px] bg-white">
+            <Seed className="size-14 xxs:size-20 md:size-25" />
           </div>
         </div>
-
-        <h3 className="text-[23px] lg:text-4xl text-center font-semibold">
+        <h3 className="text-[22px] lg:text-4xl text-center font-semibold">
           Login
         </h3>
-        <p className="text-[#000000B5] pl-3 mt-3 font-normal">Your Seed</p>
-        <div className="mt-2 bg-white rounded-lg border-[#ABABAB57] border">
-          <div className="flex flex-wrap gap-3 ml-4 mt-6 mb-6 mr-2">
-            {Seeds.map((seed, index) => (
-              <span
-                key={index}
-                className="px-2 py-1.5 rounded-md border border-[#D5D5D5] font-normal text-[10.762px] lg:text-[20.37px]"
-              >
+        <p className="text-[#000000B5] text-[14px] md:text-xl pl-4 md:pl-8 mt-7 font-normal">
+          Your Seed
+        </p>
+        <div className="mt-2 bg-white rounded-xl border-[#ABABAB57] border mx-4 md:mx-7">
+          <div className="flex flex-wrap gap-2.5 p-5">
+            {Seeds.map((seed) => (
+              <span className="px-2 py-1.5 rounded-md border border-[#D5D5D5] font-normal text-[11px] lg:text-[20px]">
                 {seed.name}
               </span>
             ))}
           </div>
         </div>
-        <div className="flex justify-between mt-4 mb-2">
-          <p className="flex gap-4 text-[14px] lg:text-xl">
-            Don't have account yet?
-            <Link
-              href="/login"
-              className="cursor-pointer lg:underline text-[#36F] lg:text-black"
-            >
-              Register here
-            </Link>
-          </p>
+        <p className="xxs:flex gap-2 xs:gap-4 text-[14px] lg:text-xl px-7 mt-7">
+          Don't have account yet?
+          <Link
+            href="/login"
+            className="cursor-pointer lg:underline text-[#36F] lg:text-black"
+          >
+            Register here
+          </Link>
+        </p>
+        <div className="flex justify-center mt-4">
+          <Button
+            text="Login"
+            className=" text-[12px] md:text-[19px]! px-18 md:px-30 py-1.5 md:py-4! mt-7"
+          />
         </div>
-        <div className="flex justify-center mt-6">
-          <button className="mt-6 px-8 rounded-full bg-[radial-gradient(43.45%_44.45%_at_56.56%_20.66%,_#2E3E99_0%,_#4C67FF_100%)] bg-[#4C67FF] py-3 text-white">
-            I have save my seed
-          </button>
-        </div>
-        <div className="flex justify-center gap-10 mb-4 mt-6">
+        <div className="flex justify-center gap-5 xs:gap-10 mb-4 mt-6">
           {Services.map((s) => (
             <p className="flex justify-between text-[10.327px] lg:text-[17.603px] font-normal mt-4">
               {s.name}
