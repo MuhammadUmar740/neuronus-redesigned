@@ -1,6 +1,6 @@
-import React from "react";
+import { SvgProps } from "@/types/svg";
 
-const NeuroMail = () => {
+const NeuroMail = ({ className }: SvgProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -8,7 +8,7 @@ const NeuroMail = () => {
       height="17"
       viewBox="0 0 23 17"
       fill="none"
-      className="w-4.75 sm:w-5.75 h-auto"
+      className={className}
     >
       <g clipPath="url(#clip0_167_2331)">
         <mask

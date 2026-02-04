@@ -1,10 +1,12 @@
-const NeuroCoin = () => {
+import { SvgProps } from "@/types/svg";
+
+const NeuroCoin = ({ className = "" }: SvgProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="47.65 0 29.64 29.64"
-      className="size-5.5 sm:size-7"
+      className={className}
     >
       <circle
         cx="62.4731"
