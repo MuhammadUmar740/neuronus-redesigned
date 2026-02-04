@@ -1,6 +1,6 @@
-import React from "react";
+import { SvgProps } from "@/types/svg";
 
-const M = () => {
+const Mastodon = ({ className = "" }: SvgProps) => {
   return (
     <svg
       width="30"
@@ -8,6 +8,7 @@ const M = () => {
       viewBox="0 0 30 32"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
     >
       <path
         d="M6.78906 17.9157V10.8938C6.78906 6.21249 14.5912 6.21249 14.5912 10.8938M14.5912 10.8938V15.575M14.5912 10.8938C14.5912 6.21249 22.3933 6.21249 22.3933 10.8938V17.9157"
@@ -27,4 +28,4 @@ const M = () => {
   );
 };
 
-export default M;
+export default Mastodon;
