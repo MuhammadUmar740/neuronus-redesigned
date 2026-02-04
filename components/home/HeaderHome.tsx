@@ -28,7 +28,11 @@ const HeaderHome = () => {
           classes={{ root: "w-55 md:w-65 lg:w-75 mx-auto" }}
         />
         <Curtains className="translate-y-[-15%]" />
-        <HeaderCard />
+        <HeaderCard
+          classes={{
+            root: "translate-y-[-3%] sm:translate-y-[-5%] md:translate-y-[-11%] lg:translate-y-[-15%]",
+          }}
+        />
       </div>
     </Header>
   );

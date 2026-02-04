@@ -2,11 +2,12 @@ import Heading from "@/components/Heading";
 import Container from "@/components/Container";
 import Background from "./Background";
 import { rules } from "@/data/home/basic-rules";
+import SectionMerger from "@/components/SectionMerger";
 
 const BasicRules = () => {
   return (
     <>
-      <div className="w-full h-8 bg-slate blur-sm translate-y-1/2 relative z-10" />
+      <SectionMerger />
       <div className="lg:h-190 xl:h-210 2xl:h-240 relative overflow-hidden">
         <Background />
         <Heading className="text-center relative pt-20 sm:pt-26 lg:py-32 xl:py-36 2xl:py-40">
@@ -36,7 +37,7 @@ const BasicRules = () => {
           ))}
         </Container>
       </div>
-      <div className="w-full h-8 bg-slate blur-sm -translate-y-1/2 relative z-10" />
+      <SectionMerger bottom />
     </>
   );
 };
