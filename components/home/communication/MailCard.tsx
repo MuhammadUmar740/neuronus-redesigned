@@ -4,7 +4,7 @@ import hand from "@/public/images/home/communication-hand.png";
 import Power from "@/public/icons/home/accessNetork/Power";
 import bg from "@/public/images/home/header-card-bg-mob.png";
 import ThunderCard from "../../ThunderCardBg";
-import Guard from "@/public/icons/communication/Guard";
+import Guard from "@/public/icons/home/communication/Guard";
 
 const MailCard = () => {
   return (

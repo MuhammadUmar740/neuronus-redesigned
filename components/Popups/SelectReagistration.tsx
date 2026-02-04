@@ -1,17 +1,15 @@
 import { Modal } from "../Modal";
-import Neuronus from "@/public/icons/registration/Neuronus";
-import UnionUp from "@/public/icons/registration/UnionUp";
-import UnionDown from "@/public/icons/registration/UnionDown";
-import NeuroMail from "@/public/icons/registration/NeuroMail";
-import NeuroDrive from "@/public/icons/registration/NeuroDrive";
-import QuantumGraphy from "@/public/icons/registration/QuantumGraphy";
-import Ghost from "@/public/icons/registration/Ghost";
-import NeuroCircle from "@/public/icons/registration/NeuroCircle";
-import NeuroScreens from "@/public/icons/registration/NeuroScreens";
-import NFile from "@/public/icons/registration/NFile";
-import XFile from "@/public/icons/registration/XFile";
-import Exclude from "@/public/icons/registration/Exclude";
-import NP from "@/public/icons/registration/NP";
+import Neuronus from "@/public/icons/home/registration/Neuronus";
+import UnionUp from "@/public/icons/home/registration/UnionUp";
+import UnionDown from "@/public/icons/home/registration/UnionDown";
+import NeuroMail from "@/public/icons/home/registration/NeuroMail";
+import NeuroDrive from "@/public/icons/NeuroDrive";
+import Ghost from "@/public/icons/GhostTransfer";
+import NeuroScreens from "@/public/icons/home/registration/NeuroScreens";
+import NFile from "@/public/icons/home/registration/NFile";
+import XFile from "@/public/icons/home/registration/XFile";
+import Quantumography from "@/public/icons/home/registration/Quantumography";
+import NP from "@/public/icons/home/registration/NP";
 import Resonance from "@/public/icons/Resonance";
 import NeuroRSA from "@/public/icons/NeuroRSA";
 
@@ -28,13 +26,13 @@ const Icons = [
   { icon: Resonance },
   { icon: NeuroRSA },
   { icon: NeuroDrive },
-  { icon: QuantumGraphy },
+  { icon: Quantumography },
   { icon: Ghost },
-  { icon: Exclude },
+  { icon: Quantumography },
   { icon: NeuroScreens },
   { icon: NFile },
   { icon: XFile },
-  { icon: NeuroCircle },
+  { icon: Quantumography },
   { icon: NP },
 ];
 

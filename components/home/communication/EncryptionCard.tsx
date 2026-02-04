@@ -2,13 +2,13 @@ import React from "react";
 import ThunderCard from "../../ThunderCardBg";
 import Top from "@/public/images/home/Top-Card.png";
 import Image from "next/image";
-import Sheild from "@/public/icons/communication/Sheild";
-import Bin from "@/public/icons/communication/Bin";
-import Info from "@/public/icons/communication/Info";
-import Option from "@/public/icons/communication/Option";
-import OpenEye from "@/public/icons/communication/OpenEye";
+import Sheild from "@/public/icons/home/communication/Sheild";
+import Bin from "@/public/icons/home/communication/Bin";
+import Info from "@/public/icons/home/communication/Info";
+import Option from "@/public/icons/home/communication/Option";
+import OpenEye from "@/public/icons/home/communication/OpenEye";
 import SliderCardPill from "../../SliderCardPill";
-import DotedPath from "@/public/icons/communication/DotedPath";
+import DotedPath from "@/public/icons/home/communication/DotedPath";
 const EncryptionCard = () => {
   return (
     <ThunderCard>

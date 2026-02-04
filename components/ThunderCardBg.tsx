@@ -4,7 +4,7 @@ import bg from "@/public/images/home/header-card-bg-mob.png";
 
 const ThunderCard = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="relative overflow-hidden w-fit rounded-[22px] bg-linear-to-b from-[#CDDBFF] to-[#EFF4FF]">
+    <div className="relative overflow-hidden w-fit rounded-[22px] bg-linear-to-b from-[#CDDBFF] to-[#EFF4FF] h-fit">
       <Image
         src={bg}
         alt="bg"
@@ -12,7 +12,7 @@ const ThunderCard = ({ children }: { children: React.ReactNode }) => {
         height={1000}
         className="size-full object-cover absolute top-0 left-0"
       />
-      {children}
+      <div className="relative">{children}</div>
     </div>
   );
 };

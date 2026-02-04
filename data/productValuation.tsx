@@ -134,7 +134,7 @@ export const productValuationData: ProductValuation[] = [
     pathId: "#wire7",
   },
   {
-    icon: <NeuroDrive className="w-4 sm:w-5 h-auto" />,
+    icon: <NeuroDrive className="w-4 sm:w-5 h-auto text-white" />,
     name: "Neuro Drive",
     dailyRevenue: "$1,000",
     shareOfPool: "10%",

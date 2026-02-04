@@ -1,8 +1,8 @@
-import Seed from "@/public/icons/seedRegistration/Seed";
+import Seed from "@/public/icons/home/seedRegistration/Seed";
 import { Modal } from "../Modal";
 import Link from "next/link";
-import Save from "@/public/icons/seedRegistration/Save";
-import Copy from "@/public/icons/seedRegistration/Copy";
+import Save from "@/public/icons/home/seedRegistration/Save";
+import Copy from "@/public/icons/home/seedRegistration/Copy";
 
 interface Props {
   isOpen: boolean;

@@ -1,6 +1,6 @@
-import React from "react";
+import { SvgProps } from "@/types/svg";
 
-const NeuroCircle = () => {
+const Quantumography = ({ className = "" }: SvgProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -9,7 +9,7 @@ const NeuroCircle = () => {
       style={{ maxHeight: "1000px" }}
       width="14.886153846153846"
       height="13.986"
-      className="w-5.5 h-auto"
+      className={className}
     >
       <circle fill="#4C67FF" r="6.88403" cy="6.88403" cx="20.0872" />
       <g filter="url(#filter0_d_4_86833)">
@@ -68,4 +68,4 @@ const NeuroCircle = () => {
   );
 };
 
-export default NeuroCircle;
+export default Quantumography;

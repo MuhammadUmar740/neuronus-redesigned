@@ -19,7 +19,7 @@ const KeySeedsCard = () => {
               <Save className="w-5 xl:w-6.5 h-auto" /> Save
             </button>
             <button className="flex items-center gap-1">
-              <Copy className="w-4 xl:w-4.75 h-auto" /> Copy
+              <Copy className="w-4 xl:w-4.75 h-auto text-black" /> Copy
             </button>
           </div>
         </div>
