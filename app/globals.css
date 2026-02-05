@@ -41,6 +41,9 @@
   /* Breakpoints */
   --breakpoint-xs: 425px;
   --breakpoint-xxs: 368px;
+
+  /* Animations */
+  --animate-spin-reverse: spin 2s linear infinite reverse;
 }
 
 @utility gradient-text {
