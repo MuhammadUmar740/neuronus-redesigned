@@ -24,14 +24,6 @@ const WorkSpace = () => {
           text="A cloud office that doesn’t look over your shoulder."
         />
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-4">
-          <div className="flex flex-col lg:justify-between mt-8 gap-14 lg:gap-0 pe-8">
-            {WorkSpaceProducts.map((product) => (
-              <ProductCatalog
-                {...product}
-                key={`workspace-product-${product.title}`}
-              />
-            ))}
-          </div>
           <div>
             <AppSwiper>
               <SwiperSlide>
@@ -44,6 +36,14 @@ const WorkSpace = () => {
                 <SecuresheetCard />
               </SwiperSlide>
             </AppSwiper>
+          </div>
+          <div className="flex flex-col lg:justify-between mt-8 gap-14 lg:gap-0 pe-8">
+            {WorkSpaceProducts.map((product) => (
+              <ProductCatalog
+                {...product}
+                key={`workspace-product-${product.title}`}
+              />
+            ))}
           </div>
         </div>
       </div>
