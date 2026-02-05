@@ -28,9 +28,7 @@ export const Modal = ({ isOpen, onClose, children }: BaseModalProps) => {
         <button
           onClick={onClose}
           className="absolute right-4 top-4 text-gray-500 hover:text-gray-700"
-        >
-          <X size={20} />
-        </button>
+        ></button>
 
         {children}
       </div>

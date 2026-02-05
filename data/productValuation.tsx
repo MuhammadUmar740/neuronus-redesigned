@@ -93,7 +93,7 @@ export const productValuationData: ProductValuation[] = [
     pathId: "#wire4",
   },
   {
-    icon: <NeuroScreens className="w-3.75 sm:w-4.75 h-auto" />,
+    icon: <NeuroScreens className="w-3.75 sm:w-4.75 h-auto text-white" />,
     name: "Neuro Screens",
     dailyRevenue: "$1,000",
     shareOfPool: "10%",

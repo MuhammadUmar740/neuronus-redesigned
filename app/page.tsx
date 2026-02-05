@@ -5,6 +5,7 @@ import NeuronusProtects from "@/components/home/neuronus-protects";
 import AccessNetwork from "@/components/home/access-network/AccessNetwork";
 import Communication from "@/components/home/communication/Communication";
 import Vault from "@/components/home/vault-&-storage/Vault";
+import WorkSpace from "@/components/home/workspace/WorkSpace";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <AccessNetwork />
       <Communication />
       <Vault />
+      <WorkSpace />
     </>
   );
 }

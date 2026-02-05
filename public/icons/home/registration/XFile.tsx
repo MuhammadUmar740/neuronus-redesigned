@@ -1,6 +1,7 @@
+import { SvgProps } from "@/types/svg";
 import React from "react";
 
-const XFile = () => {
+const XFile = ({ className = "" }: SvgProps) => {
   return (
     <svg
       width="16"
@@ -8,6 +9,7 @@ const XFile = () => {
       viewBox="0 0 16 20"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
     >
       <path
         d="M10.3909 0H2.24077C1.01444 0 0 1.00922 0 2.23555V17.6479C0 18.8742 1.01444 19.8834 2.24077 19.8834H13.3028C14.5291 19.8834 15.5433 18.8742 15.5433 17.6479V5.40484L10.3909 0Z"
