@@ -12,7 +12,7 @@ const NeuroCoin = ({ className = "" }: SvgProps) => {
         cx="62.4731"
         cy="14.8188"
         r="14.8188"
-        fill="white"
+        fill="currentColor"
         fillOpacity="0.25"
       />
       <g filter="url(#filter0_d_167_2383)">

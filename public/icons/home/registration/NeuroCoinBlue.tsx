@@ -1,6 +1,6 @@
 import { SvgProps } from "@/types/svg";
 
-const Quantumography = ({ className = "" }: SvgProps) => {
+const NeuroCoinBlue = ({ className = "" }: SvgProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -68,4 +68,4 @@ const Quantumography = ({ className = "" }: SvgProps) => {
   );
 };
 
-export default Quantumography;
+export default NeuroCoinBlue;
