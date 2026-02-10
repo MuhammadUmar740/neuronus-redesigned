@@ -87,7 +87,7 @@ const EncryptionAnimation = () => {
           className={`absolute translate-x-1/2 -translate-y-1/2 p-px xl:p-[1.5px] rounded-lg lg:rounded-xl xl:rounded-[18px] bg-linear-to-b from-[#AAB5F6] to-backlight shadow-md will-change-transform transition-all duration-700 ease-initial opacity-0 ${product.class}`}
           key={`next-gen-encrypted-product-${index}`}
         >
-          <div className="bg-radial-[43.45%_44.45%_at_56.56%_20.66%,#2E3E99_0%,#4C67FF_100%] size-8 sm:size-10 lg:size-12 xl:size-14 2xl:size-16.75 rounded-lg lg:rounded-xl xl:rounded-[18px] px-2 sm:px-2.5 lg:px-3 xl:px-4 2xl:px-4.5 flex items-center justify-center">
+          <div className="bg-radial-[43.45%_44.45%_at_56.56%_20.66%,#2E3E99_0%,#4C67FF_100%] size-8 sm:size-10 lg:size-12 xl:size-14 2xl:size-16.75 rounded-lg lg:rounded-xl xl:rounded-[18px] px-2 sm:px-2.5 lg:px-3 xl:px-4 2xl:px-4.5 flex items-center justify-center text-white">
             {product.icon}
           </div>
         </div>
