@@ -5,9 +5,9 @@ import NeuroDrive from "@/public/icons/NeuroDrive";
 import NeuroRSA from "@/public/icons/NeuroRSA";
 import NeuroMail from "@/public/icons/home/registration/NeuroMail";
 import NeuroPassword from "@/public/icons/home/registration/NeuroPassword";
-import Quantumography from "@/public/icons/home/registration/Quantumography";
 import Resonance from "@/public/icons/Resonance";
 import { ProductCatalog } from "@/types/productCatalog";
+import Quantumography from "@/public/icons/Quantumography";
 
 export const accessNetworkProducts: ProductCatalog[] = [
   {
