@@ -6,6 +6,7 @@ import AccessNetwork from "@/components/home/access-network/AccessNetwork";
 import BasicRules from "@/components/home/basic-rules";
 import NextGenEncryption from "@/components/home/next-gen-encryption";
 import PoweredByNuronus from "@/components/home/PoweredByNuronus";
+import Communication from "@/components/communication";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <DataSecurity />
       <NeuronusProtects />
       <AccessNetwork />
+      <Communication />
       <BasicRules />
       <NextGenEncryption />
       <PoweredByNuronus />
