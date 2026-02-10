@@ -8,7 +8,7 @@ import ThunderCard from "@/components/ThunderCardBg";
 const NeuroSPNCard = () => {
   return (
     <ThunderCard>
-      <div className="absolute top-[6%] right-[5%] size-45 sm:size-50 2xl:size-56 rounded-full border border-[#2854FF]/10 flex items-center justify-center z-1">
+      <div className="absolute top-[6%] right-[5%] size-40 xxs:size-45 sm:size-50 2xl:size-56 rounded-full border border-[#2854FF]/10 flex items-center justify-center z-1">
         <div className="size-[85%] rounded-full border border-[#2058FF]/50 flex items-center justify-center">
           <div className="size-[85%] rounded-full bg-linear-to-b from-[#6A96FF] to-[#185BFF] flex items-center justify-center">
             <div className="bg-white rounded-full size-[85%] text-center flex flex-col items-center justify-center gap-0.5 text-[10px] sm:text-xs">
@@ -42,7 +42,7 @@ const NeuroSPNCard = () => {
           alt="mobile in hand"
           width={800}
           height={1000}
-          className="relative pl-5 sm:pl-15 pt-38 sm:pt-30 w-85 sm:w-114 2xl:w-127 h-auto object-cover"
+          className="relative pl-5 sm:pl-15 pt-38 sm:pt-30 w-74 xxs:w-85 sm:w-114 2xl:w-127 h-auto object-cover"
         />
       </div>
     </ThunderCard>

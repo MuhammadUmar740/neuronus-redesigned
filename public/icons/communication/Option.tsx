@@ -1,6 +1,6 @@
-import React from "react";
+import { SvgProps } from "@/types/svg";
 
-const Option = () => {
+const Option = ({ className = "" }: SvgProps) => {
   return (
     <svg
       width="6"
@@ -8,6 +8,7 @@ const Option = () => {
       viewBox="0 0 6 21"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
     >
       <path
         d="M0.654312 18.1029C0.654312 19.3025 1.63579 20.284 2.83537 20.284C4.03495 20.284 5.01643 19.3025 5.01643 18.1029C5.01643 16.9034 4.03495 15.9219 2.83537 15.9219C1.63579 15.9219 0.654312 16.9034 0.654312 18.1029Z"

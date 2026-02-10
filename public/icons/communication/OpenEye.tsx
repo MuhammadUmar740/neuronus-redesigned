@@ -1,6 +1,6 @@
-import React from "react";
+import { SvgProps } from "@/types/svg";
 
-const OpenEye = () => {
+const OpenEye = ({ className = "" }: SvgProps) => {
   return (
     <svg
       width="20"
@@ -8,6 +8,7 @@ const OpenEye = () => {
       viewBox="0 0 20 17"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
     >
       <path
         fillRule="evenodd"

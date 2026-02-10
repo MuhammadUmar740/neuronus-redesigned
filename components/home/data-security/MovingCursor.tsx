@@ -2,6 +2,7 @@
 import Cursor from "@/public/icons/home/Cursor";
 import { gsap } from "gsap";
 import { useLayoutEffect, useRef } from "react";
+import CursorText from "../CursorText";
 
 const MovingCursor = () => {
   const badgeRef = useRef<HTMLDivElement | null>(null);
@@ -24,12 +25,7 @@ const MovingCursor = () => {
 
   return (
     <div ref={badgeRef} className="absolute top-1/5 right-[-10%]">
-      <div className="relative p-1.25 bg-white/50 backdrop-blur-[20px] rounded-full w-fit">
-        <div className="bg-linear-to-r from-[#526BFF] to-[#243C93] text-xs px-2.5 py-1.25 rounded-full text-white">
-          <p>Scrambled Data</p>
-          <Cursor className="absolute -top-2 -left-3" />
-        </div>
-      </div>
+      <CursorText text="Scrambled Data" />
     </div>
   );
 };
