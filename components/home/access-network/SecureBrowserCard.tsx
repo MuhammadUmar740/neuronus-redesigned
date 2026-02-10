@@ -22,7 +22,7 @@ export default function SecureBrowserCard() {
 
   return (
     <div className="mx-auto min-[400px]:mx-0 px-3 sm:px-5.25 pb-5.75 rounded-[22px] bg-[#D6E2FF] relative overflow-hidden w-fit mb-10">
-      <div className="relative bg-[#F2F6FF]/69 w-70 2xl:w-83 h-35 2xl:h-41.5 rounded-b-full flex items-end justify-center mb-10 2xl:mb-12 mx-0 xxs:mx-5 sm:mx-18 2xl:mx-21.25">
+      <div className="relative bg-[#F2F6FF]/69 w-68 xxs:w-70 2xl:w-83 h-35 2xl:h-41.5 rounded-b-full flex items-end justify-center mb-7 xxs:mb-10 2xl:mb-12 mx-0 xxs:mx-5 sm:mx-18 2xl:mx-21.25">
         <div className="size-12 sm:size-16 2xl:size-20 bg-backlight rounded-full flex items-center justify-center translate-y-1/4 px-3 sm:px-4 2xl:px-5">
           <NeuroBrowser className="text-white w-full h-auto" />
         </div>
@@ -33,7 +33,7 @@ export default function SecureBrowserCard() {
       />
 
       <div className="p-1.5 xxs:p-2.5 sm:p-3.5 bg-white/20 border-[0.3px] border-white rounded-3xl shadow-[0_38.026px_32.111px_0_rgba(0,0,0,0.10)] w-full">
-        <div className="relative bg-white/60 rounded-full mb-4 sm:mb-6">
+        <div className="relative bg-white/60 rounded-full mb-2 xxs:mb-4 sm:mb-6">
           <input
             type="text"
             placeholder="Search or type a URL"
@@ -51,7 +51,7 @@ export default function SecureBrowserCard() {
         <div className="relative">
           <textarea
             placeholder="Ask anything..."
-            className="relative rounded-[10px] bg-white py-4.5 px-3.5 w-full resize-none outline-none placeholder:text-black placeholder:text-sm text-sm h-44"
+            className="relative rounded-[10px] bg-white py-3 xxs:py-4.5 px-3.5 w-full resize-none outline-none placeholder:text-black placeholder:text-sm text-sm h-42 xxs:h-44"
             rows={5}
           />
           <div className="absolute bottom-5 left-3.5 bg-[#D6E2FF] rounded-full flex gap-3 items-center py-1.25 pl-1.25 pr-5">
@@ -66,8 +66,9 @@ export default function SecureBrowserCard() {
           </div>
         </div>
       </div>
+
       {/* Icons */}
-      <div className="flex text-center justify-center pt-6 sm:pt-8 2xl:pt-11 pb-2 gap-5">
+      <div className="flex text-center justify-center pt-4 xxs:pt-6 sm:pt-8 2xl:pt-11 pb-2 gap-5">
         {products.map((product) => (
           <div
             className="text-xs sm:text-sm text-center space-y-2.5"

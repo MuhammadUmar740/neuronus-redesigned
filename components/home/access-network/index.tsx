@@ -1,13 +1,9 @@
-"use client";
-import { SwiperSlide } from "swiper/react";
-import NeuroSPNCard from "./NeuroSPNCard";
-import AppSwiper from "../../Swipper";
-import SecureBrowserCard from "./SecureBrowserCard";
 import Heading from "@/components/Heading";
 import Description from "@/components/Description";
 import Container from "@/components/Container";
 import { accessNetworkProducts } from "@/data/productCatalog";
 import ProductCatalog from "@/components/ProductCatalog";
+import Slider from "./Slider";
 
 const AccessNetwork = () => {
   return (
@@ -27,14 +23,7 @@ const AccessNetwork = () => {
           ))}
         </div>
         <div>
-          <AppSwiper>
-            <SwiperSlide>
-              <SecureBrowserCard />
-            </SwiperSlide>
-            <SwiperSlide>
-              <NeuroSPNCard />
-            </SwiperSlide>
-          </AppSwiper>
+          <Slider />
         </div>
       </div>
     </Container>
