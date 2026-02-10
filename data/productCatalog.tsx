@@ -8,6 +8,9 @@ import NeuroPassword from "@/public/icons/home/registration/NeuroPassword";
 import Resonance from "@/public/icons/Resonance";
 import { ProductCatalog } from "@/types/productCatalog";
 import Quantumography from "@/public/icons/Quantumography";
+import NeuroScreens from "@/public/icons/NeuroScreens";
+import NFile from "@/public/icons/home/registration/NFile";
+import XFile from "@/public/icons/home/registration/XFile";
 
 export const accessNetworkProducts: ProductCatalog[] = [
   {
@@ -68,5 +71,22 @@ export const vaultProducts: ProductCatalog[] = [
     title: "Quantumography ",
     description: "Concealing data inside image files.",
     productIcon: <Quantumography className="w-full h-auto" />,
+  },
+];
+export const WorkSpaceProducts: ProductCatalog[] = [
+  {
+    title: "Neuro Screens",
+    description: "Remote Desktop (RDP) / Private Cloud Computer.",
+    productIcon: <NeuroScreens className="text-backlight w-full h-auto" />,
+  },
+  {
+    title: "NeuroDoc",
+    description: "Text editor (private alternative to Docs).",
+    productIcon: <NFile className=" text-backlight w-full h-auto" />,
+  },
+  {
+    title: "NeuroSheet",
+    description: "Spreadsheets (private alternative to Excel).",
+    productIcon: <XFile className="w-full h-auto text-backlight" />,
   },
 ];
