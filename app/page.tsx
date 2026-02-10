@@ -7,6 +7,7 @@ import BasicRules from "@/components/home/basic-rules";
 import NextGenEncryption from "@/components/home/next-gen-encryption";
 import PoweredByNuronus from "@/components/home/PoweredByNuronus";
 import Communication from "@/components/home/communication";
+import Vault from "@/components/home/vault-&-storage";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <NeuronusProtects />
       <AccessNetwork />
       <Communication />
+      <Vault />
       <BasicRules />
       <NextGenEncryption />
       <PoweredByNuronus />

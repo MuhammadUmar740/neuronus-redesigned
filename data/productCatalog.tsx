@@ -1,7 +1,11 @@
+import GhostTransfer from "@/public/icons/GhostTransfer";
 import NeuroBrowser from "@/public/icons/home/accessNetork/NeuroBrowser";
 import Polygon from "@/public/icons/home/Polygon";
+import NeuroDrive from "@/public/icons/NeuroDrive";
 import NeuroRSA from "@/public/icons/NeuroRSA";
-import NeuroMail from "@/public/icons/registration/NeuroMail";
+import NeuroMail from "@/public/icons/home/registration/NeuroMail";
+import NeuroPassword from "@/public/icons/home/registration/NeuroPassword";
+import Quantumography from "@/public/icons/home/registration/Quantumography";
 import Resonance from "@/public/icons/Resonance";
 import { ProductCatalog } from "@/types/productCatalog";
 
@@ -42,5 +46,27 @@ export const CommunicationProducts: ProductCatalog[] = [
     productIcon: (
       <NeuroRSA className="w-full h-auto text-backlight -scale-y-100 -scale-x-100" />
     ),
+  },
+];
+export const vaultProducts: ProductCatalog[] = [
+  {
+    title: "Neuro Drive",
+    description: "Encrypted cloud storage.",
+    productIcon: <NeuroDrive className="text-backlight w-full h-auto" />,
+  },
+  {
+    title: "Neuro Password",
+    description: "Manager for passwords and secure notes.",
+    productIcon: <NeuroPassword className="w-full h-auto" />,
+  },
+  {
+    title: "Ghost Transfer",
+    description: "Disposable, secure file transfer..",
+    productIcon: <GhostTransfer className="w-full h-auto text-backlight" />,
+  },
+  {
+    title: "Quantumography ",
+    description: "Concealing data inside image files.",
+    productIcon: <Quantumography className="w-full h-auto" />,
   },
 ];
