@@ -1,11 +1,5 @@
 import { Modal } from "../Modal";
-import UnionDown from "@/public/icons/registration/UnionDown";
-import NeuroMail from "@/public/icons/registration/NeuroMail";
-import NeuroCircle from "@/public/icons/registration/NeuroCircle";
-import NFile from "@/public/icons/registration/NFile";
-import XFile from "@/public/icons/registration/XFile";
-import Exclude from "@/public/icons/registration/Exclude";
-import NP from "@/public/icons/registration/NP";
+import NP from "@/public/icons/home/registration/NP";
 import Polygon from "@/public/icons/home/Polygon";
 import Resonance from "@/public/icons/Resonance";
 import NeuroRSA from "@/public/icons/NeuroRSA";
@@ -13,8 +7,13 @@ import NeuroDrive from "@/public/icons/NeuroDrive";
 import GhostTransfer from "@/public/icons/GhostTransfer";
 import NeuroScreens from "@/public/icons/NeuroScreens";
 import NeuroBrowser from "@/public/icons/home/accessNetork/NeuroBrowser";
-import NeuroPassword from "@/public/icons/registration/NeuroPassword";
+import NeuroPassword from "@/public/icons/home/registration/NeuroPassword";
 import Button from "../Button";
+import NeuroMail from "@/public/icons/NeuroMail";
+import NeuroCoin from "@/public/icons/NeuroCoin";
+import NFile from "@/public/icons/home/registration/NFile";
+import XFile from "@/public/icons/home/registration/XFile";
+import Quantumography from "@/public/icons/Quantumography";
 
 interface Props {
   isOpen: boolean;
@@ -24,18 +23,18 @@ interface Props {
 const Icons = [
   { icon: NeuroBrowser },
   { icon: Polygon },
-  { icon: UnionDown },
+  { icon: Polygon },
   { icon: NeuroMail },
   { icon: Resonance },
   { icon: NeuroRSA },
   { icon: NeuroDrive },
   { icon: NeuroPassword },
   { icon: GhostTransfer },
-  { icon: Exclude },
+  { icon: Quantumography },
   { icon: NeuroScreens },
   { icon: NFile },
   { icon: XFile },
-  { icon: NeuroCircle },
+  { icon: NeuroCoin },
   { icon: NP },
 ];
 

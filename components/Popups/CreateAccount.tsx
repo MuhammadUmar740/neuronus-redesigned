@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Modal } from "../Modal";
-import Warning from "@/public/icons/Warning";
 import Button from "../Button";
+import Warning from "@/public/icons/Warning";
 
 interface Props {
   isOpen: boolean;
