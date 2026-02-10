@@ -80,7 +80,7 @@ export const productValuationData: ProductValuation[] = [
     pathId: "#wire3",
   },
   {
-    icon: <GhostTransfer className="w-4 sm:w-4.75 h-auto" />,
+    icon: <GhostTransfer className="w-4 sm:w-4.75 h-auto text-white" />,
     name: "Ghost Transfer",
     dailyRevenue: "$1,000",
     shareOfPool: "10%",
@@ -106,7 +106,7 @@ export const productValuationData: ProductValuation[] = [
     pathId: "#wire5",
   },
   {
-    icon: <NeuroRSA className="w-3.75 sm:w-4.5 h-auto" />,
+    icon: <NeuroRSA className="w-3.75 sm:w-4.5 h-auto text-white" />,
     name: "Neuro RSA",
     dailyRevenue: "$1,000",
     shareOfPool: "10%",
