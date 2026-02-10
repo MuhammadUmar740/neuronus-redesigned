@@ -11,6 +11,9 @@ import Quantumography from "@/public/icons/Quantumography";
 import NeuroScreens from "@/public/icons/NeuroScreens";
 import NFile from "@/public/icons/home/registration/NFile";
 import XFile from "@/public/icons/home/registration/XFile";
+import NeuroCoin from "@/public/icons/NeuroCoin";
+import NP from "@/public/icons/home/registration/NP";
+import NeuroCoinBlue from "@/public/icons/home/registration/NeuroCoinBlue";
 
 export const accessNetworkProducts: ProductCatalog[] = [
   {
@@ -88,5 +91,17 @@ export const WorkSpaceProducts: ProductCatalog[] = [
     title: "NeuroSheet",
     description: "Spreadsheets (private alternative to Excel).",
     productIcon: <XFile className="w-full h-auto text-backlight" />,
+  },
+];
+export const FinanceProducts: ProductCatalog[] = [
+  {
+    title: "NeuroCoin",
+    description: "Currency powered by tool profits.",
+    productIcon: <NeuroCoinBlue className="text-backlight w-full h-auto" />,
+  },
+  {
+    title: "NeuroPay",
+    description: "Payment gateway for secure transactions.",
+    productIcon: <NP className=" w-full h-auto" />,
   },
 ];

@@ -15,14 +15,14 @@ import EncryptionCard from "./EncryptionCard";
 
 const Communication = () => {
   return (
-    <div className="pt-10 lg:pt-0 pb-16 md:pb-24 -mt-5">
+    <div className="pt-10 lg:pt-0 pb-16 md:pb-24 -mt-5 overflow-hidden">
       <div className="relative">
         <Image
           src={thunder}
           alt="thunder"
           width={500}
           height={500}
-          className="absolute w-2/5 lg:w-1/3 h-auto object-contain top-1/4 lg:top-1/2 -translate-y-1/4 right-[-20%]"
+          className="absolute w-2/5 lg:w-1/3 h-auto -right-[20%]"
         />
       </div>
 

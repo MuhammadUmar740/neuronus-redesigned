@@ -9,6 +9,7 @@ import PoweredByNuronus from "@/components/home/PoweredByNuronus";
 import Communication from "@/components/home/communication";
 import Vault from "@/components/home/vault-&-storage";
 import WorkSpace from "@/components/home/workspace";
+import Finance from "@/components/home/Finance/Index";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Communication />
       <Vault />
       <WorkSpace />
+      <Finance />
       <BasicRules />
       <NextGenEncryption />
       <PoweredByNuronus />

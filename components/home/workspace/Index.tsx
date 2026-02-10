@@ -1,13 +1,8 @@
 "use client";
 import Heading from "../../Heading";
 import Description from "../../Description";
-import {
-  CommunicationProducts,
-  WorkSpaceProducts,
-} from "@/data/productCatalog";
+import { WorkSpaceProducts } from "@/data/productCatalog";
 import ProductCatalog from "../../ProductCatalog";
-import thunder from "@/public/images/home/data-security-thunder.png";
-import Image from "next/image";
 import AppSwiper from "../../Swipper";
 import { SwiperSlide } from "swiper/react";
 import HighSecurityCard from "./HighSecurityCard";
