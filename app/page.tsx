@@ -8,7 +8,7 @@ import NextGenEncryption from "@/components/home/next-gen-encryption";
 import PoweredByNuronus from "@/components/home/PoweredByNuronus";
 import Communication from "@/components/home/communication";
 import Vault from "@/components/home/vault-&-storage";
-import WorkSpace from "@/components/home/workspace/Index";
+import WorkSpace from "@/components/home/workspace";
 
 export default function Home() {
   return (
